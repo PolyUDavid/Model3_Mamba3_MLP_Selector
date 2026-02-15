@@ -1,0 +1,17 @@
+# D²TL Command Center — Streamlit theme
+# Run from repo root: streamlit run d2tl/dashboard/app.py --server.port 8501
+
+[theme]
+primaryColor = "#58a6ff"
+backgroundColor = "#0a0e14"
+secondaryBackgroundColor = "#161b22"
+textColor = "#e6edf3"
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false

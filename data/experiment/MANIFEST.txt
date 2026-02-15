@@ -1,0 +1,23 @@
+# Experiment Data — All JSON (Model 3)
+
+## D²TL 7 experiments (run_all_experiments.py)
+- all_experiment_results.json  (in this folder)
+  Exp1: extreme scenario distribution; Exp2: distance-power slopes; Exp3: rain coverage;
+  Exp4: stratified MSE; Exp5: latency/params; Exp6: ablation; Exp7: tail risk.
+
+## D²TL 7 experiments via real API (run_all_experiments_via_api.py)
+- all_experiment_results_via_api.json  (in this folder)
+  Same Exp1–Exp7, obtained by calling Selector (8000), MLP (8001), Mamba (8002).
+  Used for paper/supplementary when reporting API-measured latency and physical-unit MSE.
+
+## Temporal / sequence experiments
+- temporal_results.json
+- temporal_experiment_results.json
+
+## First-principles validation
+- first_principles_validation.json
+
+Original paths:
+- all_experiment_results.json, all_experiment_results_via_api.json -> d2tl/experiments/results/
+- temporal_* -> temporal_experiment/results/
+- first_principles_validation.json -> validation_results/

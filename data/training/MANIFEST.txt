@@ -1,0 +1,23 @@
+# Training Data — All JSON Locations (Model 3)
+
+## Canonical set (recommended for reproduction)
+- train_data.json          -> ../Model_3_Complete_Package/training_data_package/train_data.json
+- val_data.json            -> ../Model_3_Complete_Package/training_data_package/val_data.json
+- test_data.json           -> ../Model_3_Complete_Package/training_data_package/test_data.json
+- split_indices.json       -> ../Model_3_Complete_Package/training_data_package/split_indices.json
+- coverage_training_data_v2.json -> ../Model_3_Complete_Package/training_data_package/coverage_training_data_v2.json
+
+## Training history (for plots: loss, val_mae)
+- mlp_training_history.json (D2TL MLP) -> ../d2tl/training/mlp_training_history.json  (copy in this folder)
+- mlp_service_training_history.json   -> ../d2tl/mlp_service/training_history.json
+- mamba_training_history (Mamba-3)      -> ../Model_3_Complete_Package/visualizations/training_history.json
+- training_history_v2_final            -> ../Model_3_V2_FINAL/training_history.json
+- training_history_training_dir         -> ../training/training_history.json
+
+## Other data locations
+- coverage_training_data.json (v1) -> ../training_data/coverage_training_data.json
+- coverage_training_data_v2.json     -> ../training_data/coverage_training_data_v2.json
+- Model_3_V2_FINAL full set          -> ../Model_3_V2_FINAL/training_data_package/
+- Model_3_FINAL full set             -> ../Model_3_FINAL/training_data_package/
+
+All training-history JSON files are copied into this folder for 07_visualizations.
